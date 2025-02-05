@@ -1,0 +1,37 @@
+body {
+    background-color: #f0f0f0; /* Set your desired background color */
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    background-color: turquoise; /* Set background color for the image section */
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Optional: add a border to separate sections */
+}
+
+.name {
+    background-color: turquoise; /* Set background color for the name section */
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    animation-duration: 3s;
+    animation-name: slidein;
+    background-color: #e0e0e0; /* Set background color for the entire box section */
+    padding: 20px;
+}
+
+.members,
+.creation,
+.firstAlbum,
+.DatesLocations {
+    background-color: #d9d9d9; /* Set background color for individual sections */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px; /* Optional: add margin to separate individual sections */
+}
